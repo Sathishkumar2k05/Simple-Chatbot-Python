@@ -1,4 +1,4 @@
-def ChatBox(user):
+def Chatbot(user):
 
     if user == "HI" or user == "HELLO":
 
@@ -10,7 +10,7 @@ def ChatBox(user):
 
     elif user == "WHAT IS YOUR NAME":
 
-        print("I am a basic python chatbox.")
+        print("I am a basic python chatbot.")
 
     elif user == "BYE":
 
@@ -42,4 +42,4 @@ while True:
 
     else:
 
-        ChatBox(user)
+        Chatbot(user)
